@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'busy-deploy'
+	name: 'busy-deploy'
 };
