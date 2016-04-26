@@ -4,6 +4,8 @@
 
 ember-cli-deploy package for deploying to an s3 configuration.
 
+This plugin has a blueprint for your `config/deploy.js` file to get you started.
+
 ## Installation
 
 ```
@@ -12,19 +14,6 @@ ember install busy-deploy
 ```
 
 The necessary set of plugins will be available to ember-cli-deploy and an example deploy/config.js file will be generated for you to customize with information for your deployment environments.
-
-
-
-This package bundles the plugins you need to have a deployment pipeline for your Ember app similar to what I described in my talk: Lightning Fast Deployment of Your Rails-backed JavaScript https://www.youtube.com/watch?v=QZVYP3cPcWQ
-
-It also has a blueprint for your `config/deploy.js` file to get you started.
-
-## Installation
-
-```
-ember install ember-cli-deploy
-ember install ember-cli-deploy-lightning-pack
-```
 
 ## What is a plugin pack?
 
