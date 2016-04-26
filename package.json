@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "busybusy ember-cli-deploy addon.",
   "scripts": {},
-  "repository": "",
+  "repository": "https://github.com/busybusy/webapp-busy-deploy.git",
   "engines": {
     "node": ">= 0.10.0"
   },
