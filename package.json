@@ -15,6 +15,7 @@
   },
   "keywords": [
     "ember-addon",
+	"ember-cli-deploy-plugin-pack",
     "busybusy"
   ],
   "dependencies": {
