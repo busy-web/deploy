@@ -1,26 +1,12 @@
-# Busy-deploy
+# busy-deploy
 
-This README outlines the details of collaborating on this Ember addon.
+ember-cli-deploy package for deploying to an s3 configuration.
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+```
+ember install ember-cli-deploy
+ember install busy-deploy
+```
 
-## Running
-
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
+The necessary set of plugins will be available to ember-cli-deploy and an example deploy/config.js file will be generated for you to customize with information for your deployment environments.
