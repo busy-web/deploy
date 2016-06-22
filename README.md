@@ -1,4 +1,9 @@
 # busy-deploy
+[![npm version](https://badge.fury.io/js/busy-deploy.svg)](https://badge.fury.io/js/busy-deploy)
+[![Build Status](https://travis-ci.org/busybusy/webapp-busy-deploy.svg?branch=master)](https://travis-ci.org/busybusy/webapp-busy-deploy)
+[![Ember Observer Score](https://emberobserver.com/badges/busy-deploy.svg)](https://emberobserver.com/addons/busy-deploy)
+[![Ember badge][ember-badge]][embadge]
+
 
 > An ember-cli-deploy plugin pack to implement a lightning deployment pattern as described
 
@@ -29,3 +34,6 @@ A "plugin pack" is a concept supported by ember-cli-deploy that allows a single 
 * [ember-cli-deploy-s3](https://github.com/ember-cli-deploy/ember-cli-deploy-s3)
 * [ember-cli-deploy-s3-index](https://github.com/ember-cli-deploy/ember-cli-deploy-s3-index)
 * [ember-cli-deploy-slack](https://github.com/ember-cli-deploy/ember-cli-deploy-slack)
+
+[embadge]: http://embadge.io/
+[ember-badge]: http://embadge.io/v1/badge.svg?start=2.6.0
