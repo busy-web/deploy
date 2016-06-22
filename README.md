@@ -1,6 +1,5 @@
 # busy-deploy
 [![npm version](https://badge.fury.io/js/busy-deploy.svg)](https://badge.fury.io/js/busy-deploy)
-[![Build Status](https://travis-ci.org/busybusy/webapp-busy-deploy.svg?branch=master)](https://travis-ci.org/busybusy/webapp-busy-deploy)
 [![Ember Observer Score](https://emberobserver.com/badges/busy-deploy.svg)](https://emberobserver.com/addons/busy-deploy)
 [![Ember badge][ember-badge]][embadge]
 
