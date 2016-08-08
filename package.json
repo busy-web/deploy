@@ -1,6 +1,6 @@
 {
   "name": "busy-deploy",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "busybusy ember-cli-deploy addon.",
   "scripts": {},
   "repository": "https://github.com/busybusy/webapp-busy-deploy.git",
