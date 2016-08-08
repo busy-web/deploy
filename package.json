@@ -10,7 +10,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "ember-cli": "2.6.2",
+    "ember-cli": "2.7.0",
+    "ember-cli-jshint": "^1.0.0",
     "ember-cli-release": "^0.2.9"
   },
   "keywords": [
@@ -26,7 +27,7 @@
     "ember-cli-deploy-revision-data": "0.2.3",
     "ember-cli-deploy-s3": "0.3.1",
     "ember-cli-deploy-s3-index": "0.5.0",
-    "ember-cli-deploy-sentry": "0.3.1",
+    "ember-cli-deploy-sentry": "0.4.0",
     "ember-cli-deploy-slack": "0.1.0"
   },
   "ember-addon": {

@@ -35,4 +35,4 @@ A "plugin pack" is a concept supported by ember-cli-deploy that allows a single 
 * [ember-cli-deploy-slack](https://github.com/ember-cli-deploy/ember-cli-deploy-slack)
 
 [embadge]: http://embadge.io/
-[ember-badge]: http://embadge.io/v1/badge.svg?start=2.6.0
+[ember-badge]: http://embadge.io/v1/badge.svg?start=2.7.0
