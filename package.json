@@ -10,8 +10,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "ember-cli": "2.7.0",
-    "ember-cli-jshint": "^1.0.0",
+    "ember-cli": "2.10.0",
+    "ember-cli-jshint": "^2.0.1",
     "ember-cli-release": "^0.2.9"
   },
   "keywords": [
@@ -22,12 +22,12 @@
   "dependencies": {
     "ember-cli-deploy-build": "0.1.1",
     "ember-cli-deploy-display-revisions": "0.2.2",
-    "ember-cli-deploy-gzip": "0.2.3",
+    "ember-cli-deploy-gzip": "0.2.4",
     "ember-cli-deploy-manifest": "0.1.1",
     "ember-cli-deploy-revision-data": "0.3.2",
-    "ember-cli-deploy-s3": "0.3.2",
+    "ember-cli-deploy-s3": "0.4.0",
     "ember-cli-deploy-s3-index": "0.5.0",
-    "ember-cli-deploy-sentry": "0.4.0",
+    "ember-cli-deploy-sentry": "0.5.1",
     "ember-cli-deploy-slack": "0.1.0"
   },
   "ember-addon": {
