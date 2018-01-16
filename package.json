@@ -9,7 +9,7 @@
   ],
   "license": "MIT",
   "author": "busy inc.",
-  "repository": "https://github.com/busybusy/webapp-busy-deploy.git",
+  "repository": "git@github.com:busy-web/deploy.git",
   "dependencies": {
     "ember-cli-deploy-build": "^1.1.1",
     "ember-cli-deploy-display-revisions": "^1.0.0",
