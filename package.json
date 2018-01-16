@@ -13,14 +13,13 @@
   "repository": "https://github.com/busybusy/webapp-busy-deploy.git",
   "scripts": {},
   "dependencies": {
-    "ember-cli-deploy-build": "^1.0.0",
+    "ember-cli-deploy-build": "^1.1.1",
     "ember-cli-deploy-display-revisions": "^1.0.0",
-    "ember-cli-deploy-gzip": "^1.0.0",
-    "ember-cli-deploy-manifest": "^1.0.0",
+    "ember-cli-deploy-gzip": "^1.0.1",
+    "ember-cli-deploy-manifest": "^1.1.0",
     "ember-cli-deploy-revision-data": "^1.0.0",
-    "ember-cli-deploy-s3": "^1.0.0",
-    "ember-cli-deploy-s3-index": "^1.0.0",
-    "ember-cli-deploy-sentry": "^0.5.2",
+    "ember-cli-deploy-s3": "^1.1.0",
+    "ember-cli-deploy-s3-index": "^1.0.1",
     "ember-cli-deploy-slack": "^1.0.0"
   },
   "devDependencies": {
