@@ -1,6 +1,6 @@
 {
   "name": "@busy-web/deploy",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "busy-web ember-cli-deploy addon.",
   "keywords": [
     "ember-addon",
