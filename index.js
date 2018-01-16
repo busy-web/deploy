@@ -2,7 +2,7 @@
 var commands = require('./lib/commands');
 
 module.exports = {
-  name: 'busy-deploy',
+  name: '@busy-web/deploy',
 
 	includedCommands: function() {
 		return commands;

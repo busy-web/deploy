@@ -1,11 +1,11 @@
 {
-  "name": "busy-deploy",
+  "name": "@busy-web/deploy",
   "version": "1.1.0",
-  "description": "busybusy ember-cli-deploy addon.",
+  "description": "busy-web ember-cli-deploy addon.",
   "keywords": [
     "ember-addon",
     "ember-cli-deploy-plugin-pack",
-    "busybusy"
+    "busy-web"
   ],
   "license": "MIT",
   "author": "busy inc.",

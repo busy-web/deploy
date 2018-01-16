@@ -1,10 +1,9 @@
-/* jshint node: true */
-require('dotenv').load();
-var config = require('./environment')();
 
-module.exports = function(deployTarget)
-{
-	var ENV = {
+require('dotenv').load();
+const config = require('./environment')();
+
+module.exports = function(deployTarget) {
+	const ENV = {
 		build: {},
 
 		"revision-data": {
@@ -31,14 +30,14 @@ module.exports = function(deployTarget)
 			webhookURL: null /* YOUR SLACK URL */,
 			channel: null /* YOUR SLACK CHANNEL */,
 			username: null /* YOUR SLACK USER */,
-			willDeploy: function() {
+			willDeploy() {
 				return function() {
 					return {
 						slackStartDeployDate: new Date()
 					};
 				};
 			},
-			didActivate: function(context) {
+			didActivate(context) {
 				return function(slack) {
 					return slack.notify({
 						attachments: [{
@@ -53,7 +52,7 @@ module.exports = function(deployTarget)
 					});
 				};
 			},
-			didDeploy: function(context) {
+			didDeploy(context) {
 				return function(slack) {
 					var start = context.slackStartDeployDate;
 					var end = new Date();
@@ -77,8 +76,7 @@ module.exports = function(deployTarget)
 		}
 	};
 
-	if(deployTarget === 'beta')
-	{
+	if (deployTarget === 'beta') {
 		ENV.build.environment = 'beta';
 
 		/**
@@ -95,8 +93,7 @@ module.exports = function(deployTarget)
 		ENV['s3-index'].prefix = 'beta/public';
 	}
 
-	if(deployTarget === 'production')
-	{
+	if (deployTarget === 'production') {
 		ENV.build.environment = 'production';
 
 		/**
