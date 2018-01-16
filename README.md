@@ -1,4 +1,4 @@
-# busy-deploy
+# @busy-web/deploy
 [![npm version](https://badge.fury.io/js/busy-deploy.svg)](https://badge.fury.io/js/busy-deploy)
 [![Ember Observer Score](https://emberobserver.com/badges/busy-deploy.svg)](https://emberobserver.com/addons/busy-deploy)
 [![Ember badge][ember-badge]][embadge]
@@ -14,7 +14,7 @@ This plugin has a blueprint for your `config/deploy.js` file to get you started.
 
 ```
 ember install ember-cli-deploy
-ember install busy-deploy
+ember install @busy-web/deploy
 ```
 
 The necessary set of plugins will be available to ember-cli-deploy and an example deploy/config.js file will be generated for you to customize with information for your deployment environments.
