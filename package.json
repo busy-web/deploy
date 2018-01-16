@@ -9,9 +9,7 @@
   ],
   "license": "MIT",
   "author": "busy inc.",
-  "directories": {},
   "repository": "https://github.com/busybusy/webapp-busy-deploy.git",
-  "scripts": {},
   "dependencies": {
     "ember-cli-deploy-build": "^1.1.1",
     "ember-cli-deploy-display-revisions": "^1.0.0",
@@ -23,13 +21,15 @@
     "ember-cli-deploy-slack": "^1.0.0"
   },
   "devDependencies": {
-    "ember-cli": "2.12.1",
-    "ember-cli-eslint": "^3.0.0",
-    "ember-cli-shims": "^1.0.2",
-    "ember-source": "~2.12.0"
+    "ember-cli": "~2.18.0",
+    "ember-cli-eslint": "^4.2.1",
+    "ember-cli-shims": "^1.2.0",
+    "ember-source": "~2.18.0",
+    "eslint-plugin-ember": "^5.0.0",
+    "eslint-plugin-node": "^5.2.1"
   },
   "engines": {
-    "node": ">= 4"
+    "node": "^4.5 || 6.* || >= 7.*"
   },
   "ember-addon": {
     "defaultBlueprint": "busy-deploy-config"
